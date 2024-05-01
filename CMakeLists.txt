@@ -23,6 +23,10 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(PhoneBook
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        signinwindow.h signinwindow.cpp signinwindow.ui
+        bookmainwindow.h bookmainwindow.cpp bookmainwindow.ui
+        userui.h userui.cpp userui.ui
+
 
     )
 # Define target properties for Android with Qt 6 as:
